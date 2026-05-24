@@ -1,59 +1,91 @@
 # Hi, I'm Javier 👋  
 Software Testing & Automation Engineer → Applied AI Integration | Munich 🇩🇪
 
-I build reliable automation systems: testable Python tools, structured data workflows, and applied AI integrations with human approval and traceable execution.
+My strength is combining hands-on technical work with a broader view of the software development lifecycle. I have worked across manual testing, test automation, test infrastructure, tooling, and test leadership, which gives me a practical understanding of how software is built, validated, delivered, and maintained.
 
-My background is in software testing, automation, and system-level validation, with a strong focus on requirements, expected behavior, regression risk, and automated verification. I care about systems that can be tested, observed, reproduced, debugged, and trusted over time.
+I use gen AI, LLMs, and agents where language reasoning adds value, and deterministic code where the task is deterministic.
 
-I am now focused on applied AI integration: connecting LLMs, APIs, automation workflows, structured data, and human-in-the-loop control to solve real operational problems.
-
-I use AI where it adds value — language understanding, ambiguity handling, generation, extraction, and decision support — and deterministic code where the task is deterministic. The goal is not to put an LLM everywhere, but to combine reliable software engineering with AI capabilities where they actually improve the workflow.
-
-Currently completing the **AI Consulting & Integration Bootcamp @ Ironhack**, focused on LLM APIs, automation, RAG, evaluation, agentic workflows, and practical AI system integration.
+My approach is pragmatic: I prototype fast enough to validate ideas, then harden the parts that matter.
+That means making workflows easier to observe, reproduce, adapt, and verify — with clear errors, status tracking, repeatable commands, wrappers around external services, tests, and validation.
 
 ---
 
-## What I care about
+## 🧭 What I care about
 
-- **Reliability** — software should work repeatedly, not only once
-- **Automation** — repeated manual work should be removed where practical
-- **Verification and regression safety** — important behavior should be checked automatically so changes do not silently break existing workflows
-- **Clear architecture** — maintainable boundaries make systems easier to test, debug, automate, and improve over time
-- **Mockable interfaces** — core logic should be separated from external dependencies so workflows can be tested with mocks, fakes, or controlled test doubles
-- **Traceability** — inputs, outputs, decisions, and failures should be inspectable
-- **Observability** — systems should expose what happened, where, and why
-- **Reproducibility** — environments, commands, and workflows should be repeatable
-- **Structured data** — schemas, JSON state, and validation beat vague text blobs
+- **Traceability and observability** — inputs, outputs, decisions, failures, and status should be inspectable
 - **Practical usefulness** — tools should solve actual workflow pain, not just look impressive
+- **Validation and regression safety** — important behavior should be protected by reproducible checks, from tests and hooks to lightweight CI when useful
+- **Clear, testable boundaries** — core logic should be separated from external dependencies so systems are easier to test, debug, and extend
+- **Scalable design** — systems should be structured so new providers, workflows, and features can be added without rewriting the core logic
 
 ---
 
-## Engineering style
+## 📌 Selected projects
 
-My natural approach is workflow-oriented and pragmatic.
+### Agentic Applications
 
-I believe in progressive stabilization: prototype fast enough to validate ideas, then harden the parts that matter with observability, reproducibility, explicit boundaries, and automated checks.
-
-I prefer systems where it is clear what calls what, where state lives, how failures are handled, and how results are verified.
-
-For AI-based systems, I prefer controlled workflows:
-
-```text
-Deterministic orchestration
-+ clear interfaces
-+ explicit state
-+ validation
-+ logs
-+ human approval for critical actions
-+ LLMs only where language reasoning is useful
-```
+| Project | What it does | GitHub |
+|---|---|---|
+| **Agentic Job Application System** | Runs a human-in-the-loop job application workflow from candidate data and a job URL to reviewed application material. It manages candidate profile data, job intake, LLM-assisted extraction, apply-page requirement discovery, application package generation, editable drafts, review gates, and application tracking. | [Link](https://github.com/portero-aylagas/job_search_automation) |
 
 ---
 
-## Current focus
+### Software Quality & AI-Assisted Development
 
-- test and workflow automation
-- applied AI integrations
-- agentic workflows with controlled tool access
+| Project | What it does | GitHub |
+|---|---|---|
+| **Safe Project Improvement System** | Defines a controlled workflow for AI-assisted software improvement. It inspects a repository, characterizes existing behavior, audits quality risks, creates a backlog, applies one small patch at a time, and re-verifies the result. The system focuses on traceability, characterization tests, incremental refactoring, and local verification. | [Link](https://github.com/portero-aylagas/agent_skill_safe_project_improvement_system) |
 
-- [LinkedIn](https://www.linkedin.com/in/portero)
+---
+
+### Applied AI Applications
+
+| Project | What it does | GitHub |
+|---|---|---|
+| **AI Market Intelligence Report Generator** | Generates market-intelligence reports from local knowledge-base files. It builds context from selected markets, sections, and time periods, creates a structured Markdown report, and supports iterative revision through user feedback. | [Link](https://github.com/portero-aylagas/project2_content_creation) |
+| **AI Podcast Studio** | Turns PDFs, URLs, pasted text, or combined sources into a short two-speaker podcast. It extracts and summarizes the source material, transforms it into a dialogue, generates MP3 audio, and exports a transcript. | [Link](https://github.com/portero-aylagas/project1_podcast) |
+
+---
+
+### Agentic Workflows
+
+| Project | What it does | GitHub |
+|---|---|---|
+| **MCP Integration with LangChain** | Connects a LangChain agent to Model Context Protocol servers. The agent uses filesystem and Git tools through MCP, with an optional comparison between MCP tool use and direct REST API calls. | [Link](https://github.com/portero-aylagas/MCP_in_LangChain) |
+| **LangGraph Complaint Workflow** | Processes complaint messages through a structured LangGraph workflow: intake, validation, investigation, resolution, and closure. The workflow uses explicit graph stages instead of leaving the whole process to free-form agent behavior. | [Link](https://github.com/portero-aylagas/LangGraph_NormalObjects_Creative_Complaint_Handler) |
+| **LangChain Complaint Handler** | Handles complaint messages with a LangChain agent that selects from available tools and data sources to produce a response. This is the earlier agent-based version of the complaint workflow. | [Link](https://github.com/portero-aylagas/Agentic_AI_Creative_Complaint_Handler_LangChain) |
+
+---
+
+### RAG & Retrieval
+
+| Project | What it does | GitHub |
+|---|---|---|
+| **Trustworthy AI RAG Pipeline** | Builds a retrieval-augmented generation pipeline over a Trustworthy AI PDF and podcast transcript. It converts the PDF to Markdown, transcribes audio, chunks both sources, stores embeddings in Pinecone, retrieves relevant content, applies LLM relevance scoring, and generates grounded answers. | [Link](https://github.com/portero-aylagas/RAG_relevance_scoring_and_rerankers) |
+| **PDF Chunking for RAG** | Prepares long PDF content for retrieval by comparing chunking strategies on a Trustworthy AI document. The focus is document preparation before indexing and retrieval. | [Link](https://github.com/portero-aylagas/RAG_chunk_podcast_and_pdf) |
+
+---
+
+### n8n workflow Automation
+
+
+| Project | What it does | GitHub |
+|---|---|---|
+| **Telegram to Airtable Workflow** | Receives Telegram bot messages, normalizes the message data, and stores structured records in Airtable through an n8n workflow. | [Link](https://github.com/portero-aylagas/n8n_multiapp_integration) |
+
+---
+
+## 🧰 Tools and technologies
+
+**Agentic workflows:** `LangChain` `LangGraph` `MCP` `Tool Use` `Browser Automation` `Playwright`  
+**RAG & retrieval:** `Embeddings` `Vector Search` `Pinecone` `Metadata Filtering` `Relevance Scoring` `Reranking`  
+**Software engineering:** `Python` `Git` `GitHub` `REST APIs` `CLI applications`  
+**Quality & testing:** `pytest` `Ruff` `Test Automation`  
+**Workflow automation:** `n8n` `Telegram Bot API` `Airtable` `Trello API`  
+**Document & audio processing:** `PDF Extraction` `Web Scraping` `BeautifulSoup` `Whisper` `TTS` `pydub` `ffmpeg`
+
+---
+
+## 📫 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Javier%20Portero-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/portero)
