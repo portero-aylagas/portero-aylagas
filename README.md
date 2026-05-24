@@ -1,9 +1,9 @@
 # Hi, I'm Javier 👋  
-Software Testing & Automation Engineer → Applied AI Integration | Munich 🇩🇪
+Software Testing & Automation Engineer →  AI Engineer | Munich 🇩🇪
 
-My strength is combining hands-on technical work with a broader view of the software development lifecycle. I have worked across manual testing, test automation, test infrastructure, tooling, and test leadership, which gives me a practical understanding of how software is built, validated, delivered, and maintained.
+My strength is combining **hands-on technical work with a broader view of the software development lifecycle**. I have worked across manual testing, test automation, test infrastructure, tooling, and test leadership, which gives me a practical understanding of how software is built, validated, delivered, and maintained.
 
-I use gen AI, LLMs, and agents where language reasoning adds value, and deterministic code where the task is deterministic.
+**I use gen AI, LLMs, and agents where language reasoning adds value, and deterministic code where the task is deterministic.**
 
 My approach is pragmatic: I prototype fast enough to validate ideas, then harden the parts that matter.
 That means making workflows easier to observe, reproduce, adapt, and verify — with clear errors, status tracking, repeatable commands, wrappers around external services, tests, and validation.
@@ -26,7 +26,7 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 | Project | What it does | GitHub |
 |---|---|---|
-| **Agentic Job Application System** | Runs a human-in-the-loop job application workflow from candidate data and a job URL to reviewed application material. It manages candidate profile data, job intake, LLM-assisted extraction, apply-page requirement discovery, application package generation, editable drafts, review gates, and application tracking. | [Link](https://github.com/portero-aylagas/job_search_automation) |
+| **Agentic Job Application System** | Runs a job application workflow: from candidate data and a job URL to generating application material and applying autonomously.| [Link](https://github.com/portero-aylagas/job_search_automation) |
 
 ---
 
@@ -34,7 +34,8 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 | Project | What it does | GitHub |
 |---|---|---|
-| **Safe Project Improvement System** | Defines a controlled workflow for AI-assisted software improvement. It inspects a repository, characterizes existing behavior, audits quality risks, creates a backlog, applies one small patch at a time, and re-verifies the result. The system focuses on traceability, characterization tests, incremental refactoring, and local verification. | [Link](https://github.com/portero-aylagas/agent_skill_safe_project_improvement_system) |
+| **Safe Project Improvement System** | Development-support skill for controlled AI-assisted software improvement. For SW Engineering it checks architecture, file structure, module boundaries, function responsibility, naming, error handling, validation, testability, repository hygiene, documentation, security, and secrets handling. For AI-integrated projects, it also reviews prompt quality, dynamic prompting, structured outputs, LLM/API integration, RAG and chunking, agent tools, speech pipelines, evaluation, and cost/usage tracking. It separates **runtime/project skills** from **development/support skills**, keeping application behavior separate from project-quality workflows. | [Link](https://github.com/portero-aylagas/agent_skill_safe_project_improvement_system) |
+
 
 ---
 
@@ -51,9 +52,9 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 | Project | What it does | GitHub |
 |---|---|---|
-| **MCP Integration with LangChain** | Connects a LangChain agent to Model Context Protocol servers. The agent uses filesystem and Git tools through MCP, with an optional comparison between MCP tool use and direct REST API calls. | [Link](https://github.com/portero-aylagas/MCP_in_LangChain) |
-| **LangGraph Complaint Workflow** | Processes complaint messages through a structured LangGraph workflow: intake, validation, investigation, resolution, and closure. The workflow uses explicit graph stages instead of leaving the whole process to free-form agent behavior. | [Link](https://github.com/portero-aylagas/LangGraph_NormalObjects_Creative_Complaint_Handler) |
-| **LangChain Complaint Handler** | Handles complaint messages with a LangChain agent that selects from available tools and data sources to produce a response. This is the earlier agent-based version of the complaint workflow. | [Link](https://github.com/portero-aylagas/Agentic_AI_Creative_Complaint_Handler_LangChain) |
+| **MCP Integration with LangChain** | The agent connects to MCP servers and uses filesystem, Git, and Trello tools through a standard tool interface. It reads local documents, inspects repository state, and creates Trello tasks | [Link](https://github.com/portero-aylagas/MCP_in_LangChain) |
+| **LangGraph Complaint Workflow** | The agent processes complaint messages through a fixed LangGraph workflow. It classifies the complaint, extracts intake details, validates category-specific issues, investigates the case, generates a resolution record, and closes the workflow with a structured summary. | [Link](https://github.com/portero-aylagas/LangGraph_NormalObjects_Creative_Complaint_Handler) |
+| **LangChain Complaint Handler** | The agent receives a complaint, selects from available tools and data sources, retrieves the relevant information, and produces a response. This is the earlier free-tool-selection version of the complaint workflow. | [Link](https://github.com/portero-aylagas/Agentic_AI_Creative_Complaint_Handler_LangChain) |
 
 ---
 
