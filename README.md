@@ -14,7 +14,7 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 - **Traceability and observability** — inputs, outputs, decisions, failures, and status should be inspectable
 - **Practical usefulness** — tools should solve actual workflow pain, not just look impressive
-- **Validation and regression safety** — important behavior should be not just trusted from AI or devs, but when useful protected by reproducible checks, tests,  hooks and CI
+- **Validation and regression safety** — important behavior should not just be trusted blindly from AI or developers, but protected by reproducible checks, tests, hooks, and CI
 - **Clear, testable boundaries** — core logic should be separated from external dependencies so systems are easier to test, debug, and extend
 - **Scalable design** — workflows should be modular enough to grow in complexity without requiring major rewrites or mixing unrelated responsibilities
   
