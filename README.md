@@ -1,5 +1,5 @@
 # Hi, I'm Javier 👋  
-Software Testing & Automation Engineer →  AI Engineer | Munich 🇩🇪
+Software Testing & Automation Engineer →  AI Integration Engineer | Munich 🇩🇪
 
 My strength is combining **hands-on technical work with a broader view of the software development lifecycle**. I have worked across manual testing, test automation, test infrastructure, tooling, and test leadership, which gives me a practical understanding of how software is built, validated, delivered, and maintained.
 
@@ -16,8 +16,8 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 - **Practical usefulness** — tools should solve actual workflow pain, not just look impressive
 - **Validation and regression safety** — important behavior should be protected by reproducible checks, from tests and hooks to lightweight CI when useful
 - **Clear, testable boundaries** — core logic should be separated from external dependencies so systems are easier to test, debug, and extend
-- **Scalable design** — systems should be structured so new providers, workflows, and features can be added without rewriting the core logic
-
+- **Scalable design** — workflows should be modular enough to grow in complexity without requiring major rewrites or mixing unrelated responsibilities
+  
 ---
 
 ## 📌 Selected projects
@@ -80,10 +80,10 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 **Agentic workflows:** `LangChain` `LangGraph` `MCP` `Tool Use` `Browser Automation` `Playwright`  
 **RAG & retrieval:** `Embeddings` `Vector Search` `Pinecone` `Metadata Filtering` `Relevance Scoring` `Reranking`  
-**Software engineering:** `Python` `Git` `GitHub` `REST APIs` `CLI applications`  
+**Software engineering:** `Python` `Git` `GitHub` `REST APIs` 
 **Quality & testing:** `pytest` `Ruff` `Test Automation`  
 **Workflow automation:** `n8n` `Telegram Bot API` `Airtable` `Trello API`  
-**Document & audio processing:** `PDF Extraction` `Web Scraping` `BeautifulSoup` `Whisper` `TTS` `pydub` `ffmpeg`
+**Document & audio processing:** `PDF Extraction` `Web Scraping` `BeautifulSoup` `Whisper` `TTS`
 
 ---
 
