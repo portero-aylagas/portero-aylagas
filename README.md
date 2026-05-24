@@ -30,11 +30,11 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 ---
 
-### Software Quality & AI-Assisted Development
+### Claude Code/ Codex Skills for Software Quality & AI-Assisted Development
 
 | Project | What it does | GitHub |
 |---|---|---|
-| **Safe Project Improvement System** | Development-support skill for controlled AI-assisted software improvement. For SW Engineering it checks architecture, file structure, module boundaries, function responsibility, naming, error handling, validation, testability, repository hygiene, documentation, security, and secrets handling. For AI-integrated projects, it also reviews prompt quality, dynamic prompting, structured outputs, LLM/API integration, RAG and chunking, agent tools, speech pipelines, evaluation, and cost/usage tracking. It separates **runtime/project skills** from **development/support skills**, keeping application behavior separate from project-quality workflows. | [Link](https://github.com/portero-aylagas/agent_skill_safe_project_improvement_system) |
+| **Safe Project Improvement Skill** | Reusable development-support skill I built to improve software projects with controlled AI assistance. It can be applied to any repository to review quality, identify risks, plan small improvements, and guide safe incremental changes.<br><br>**SW engineering:** architecture, module boundaries, function responsibility, error handling, validation, testability, documentation, repository hygiene, security, and secrets handling.<br><br>**AI-integrated projects:** prompt quality, structured outputs, LLM/API boundaries, RAG/retrieval, agent tools, evaluation, and cost/usage tracking. | [Link](https://github.com/portero-aylagas/agent_skill_safe_project_improvement_system) |
 
 
 ---
