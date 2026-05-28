@@ -1,5 +1,5 @@
 # Hi, I'm Javier 👋  
-Software Testing & Automation Engineer →  AI Integration Engineer | Munich 🇩🇪
+Software Testing & Automation Engineer → AI Integration Engineer | Munich 🇩🇪
 
 My strength is combining **hands-on technical work with a broader view of the software development lifecycle**. I have worked across manual testing, test automation, test infrastructure, tooling, and test leadership, which gives me a practical understanding of how software is built, validated, delivered, and maintained.
 
@@ -16,26 +16,34 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 - **Practical usefulness** — tools should solve actual workflow pain, not just look impressive
 - **Validation and regression safety** — important behavior should not just be trusted blindly from AI or developers, but protected by reproducible checks, tests, hooks, and CI
 - **Clear, testable boundaries** — core logic should be separated from external dependencies so systems are easier to test, debug, and extend
+- **Reusable quality standards** — recurring architecture patterns should become templates, checks, and documentation instead of being rebuilt manually each time
 - **Scalable design** — workflows should be modular enough to grow in complexity without requiring major rewrites or mixing unrelated responsibilities
-  
+
 ---
 
-## 📌 Selected projects
+## 📌 Projects
+
+### AI Project Architecture & Templates
+
+| Project | What it does | GitHub |
+|---|---|---|
+| **AI Project Templates** | Reusable starter architectures for AI-integrated software projects. The repository turns repeated AI project patterns into copyable templates with separated prompts, Pydantic schemas, provider boundaries, fake-client tests, FastAPI UI, documentation, GitHub Actions, and `make verify` gates.<br><br>**Checked project archetypes:** direct LLM calls, RAG applications, LangChain tool-using agents, LangGraph stateful workflows, MCP agents, and human-in-the-loop review workflows. | [Link](https://github.com/portero-aylagas/AI_project_templates) |
+
+---
 
 ### Agentic Applications
 
 | Project | What it does | GitHub |
 |---|---|---|
-| **Agentic Job Application System** | Runs a job application workflow: from candidate data and a job URL to generating application material and applying autonomously.| [Link](https://github.com/portero-aylagas/job_search_automation) |
+| **Agentic Job Application System** | Runs a job application workflow: from candidate data and a job URL to generating application material and applying autonomously. | [Link](https://github.com/portero-aylagas/job_search_automation) |
 
 ---
 
-### Claude Code/ Codex Skills for Software Quality & AI-Assisted Development
+### Claude Code / Codex Skills for Software Quality & AI-Assisted Development
 
 | Project | What it does | GitHub |
 |---|---|---|
 | **Safe Project Improvement Skill** | Reusable development-support skill I built to improve software projects with controlled AI assistance. It can be applied to any repository to review quality, identify risks, plan small improvements, and guide safe incremental changes.<br><br>**SW engineering:** architecture, module boundaries, function responsibility, error handling, validation, testability, documentation, repository hygiene, security, and secrets handling.<br><br>**AI-integrated projects:** prompt quality, structured outputs, LLM/API boundaries, RAG/retrieval, agent tools, evaluation, and cost/usage tracking. | [Link](https://github.com/portero-aylagas/agent_skill_safe_project_improvement_system) |
-
 
 ---
 
@@ -52,7 +60,7 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 | Project | What it does | GitHub |
 |---|---|---|
-| **MCP Integration with LangChain** | The agent connects to MCP servers and uses filesystem, Git, and Trello tools through a standard tool interface. It reads local documents, inspects repository state, and creates Trello tasks | [Link](https://github.com/portero-aylagas/MCP_in_LangChain) |
+| **MCP Integration with LangChain** | The agent connects to MCP servers and uses filesystem, Git, and Trello tools through a standard tool interface. It reads local documents, inspects repository state, and creates Trello tasks. | [Link](https://github.com/portero-aylagas/MCP_in_LangChain) |
 | **LangGraph Complaint Workflow** | The agent processes complaint messages through a fixed LangGraph workflow. It classifies the complaint, extracts intake details, validates category-specific issues, investigates the case, generates a resolution record, and closes the workflow with a structured summary. | [Link](https://github.com/portero-aylagas/LangGraph_NormalObjects_Creative_Complaint_Handler) |
 | **LangChain Complaint Handler** | The agent receives a complaint, selects from available tools and data sources, retrieves the relevant information, and produces a response. This is the earlier free-tool-selection version of the complaint workflow. | [Link](https://github.com/portero-aylagas/Agentic_AI_Creative_Complaint_Handler_LangChain) |
 
@@ -67,8 +75,7 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 ---
 
-### n8n workflow Automation
-
+### n8n Workflow Automation
 
 | Project | What it does | GitHub |
 |---|---|---|
@@ -80,8 +87,9 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 **Agentic workflows:** `LangChain` `LangGraph` `MCP` `Tool Use` `Browser Automation` `Playwright`  
 **RAG & retrieval:** `Embeddings` `Vector Search` `Pinecone` `Metadata Filtering` `Relevance Scoring` `Reranking`  
-**Software engineering:** `Python` `Git` `GitHub` `REST APIs` 
-**Quality & testing:** `pytest` `Ruff` `Test Automation`  
+**AI project architecture:** `Pydantic` `FastAPI` `Provider Boundaries` `Prompt Files` `Structured Outputs` `Fake Clients`  
+**Software engineering:** `Python` `Git` `GitHub` `REST APIs` `Make` `GitHub Actions`  
+**Quality & testing:** `pytest` `Ruff` `Test Automation` `Fixtures` `CI Verification`  
 **Workflow automation:** `n8n` `Telegram Bot API` `Airtable` `Trello API`  
 **Document & audio processing:** `PDF Extraction` `Web Scraping` `BeautifulSoup` `Whisper` `TTS`
 
