@@ -10,6 +10,14 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 ---
 
+## Agentic Applications 
+
+| Project | What it does | GitHub |
+|---|---|---|
+| 🤖⭐**Agentic Job Application System** ⭐🚀| LangGraph end-to-end agentic workflow for job applications. It takes candidate data and a job URL, extracts and structures role information, generates tailored application material, tracks workflow state, and supports controlled browser-based application steps with validation and review points. | [Link](https://github.com/portero-aylagas/job_search_automation) |
+
+---
+
 ## 🧭 What I care about
 
 - **Traceability and observability** — inputs, outputs, decisions, failures, and status should be inspectable
@@ -20,16 +28,7 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 - **Scalable design** — workflows should be modular enough to grow in complexity without requiring major rewrites or mixing unrelated responsibilities
 
 ---
-
-## 📌 Selected projects
-
-### Agentic Applications
-
-| Project | What it does | GitHub |
-|---|---|---|
-| **Agentic Job Application System** | Runs a job application workflow: from candidate data and a job URL to generating application material and applying autonomously. | [Link](https://github.com/portero-aylagas/job_search_automation) |
-
----
+## Other projects
 
 ### Claude Code / Codex Skills for Software Quality & AI-Assisted Development
 
