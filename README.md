@@ -32,18 +32,22 @@ Browser automation: forms, candidate data, attachments
 
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img src="assets/images/karen_applies_to_position.gif" alt="Karen chat workflow demo" width="90%">
-    </td>
-    <td width="50%" align="center">
-      <img src="assets/images/browseruse_applies_to_position_and_attaches_data.gif" alt="Browser automation demo" width="90%">
+    <td align="center">
+      <img src="assets/images/karen_applies_to_position.gif" alt="Karen chat workflow demo" width="65%">
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Karen prepares the application</b><br>
-      The assistant analyzes the job requirements and candidate profile, then prepares tailored application data for the selected position.
+      Karen analyzes the position requirements and candidate profile/CV, then prepares tailored application data for the selected role.
     </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/images/browseruse_applies_to_position_and_attaches_data.gif" alt="Browser automation demo" width="90%">
+    </td>
+  </tr>
+  <tr>
     <td align="center">
       <b>Agentic browser application</b><br>
       The system attempts the application through browser navigation: filling forms, adding candidate data, and attaching required files.
