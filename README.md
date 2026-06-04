@@ -8,15 +8,51 @@ My strength is combining **hands-on technical work with a broader view of the so
 My approach is pragmatic: I prototype fast enough to validate ideas, then harden the parts that matter.
 That means making workflows easier to observe, reproduce, adapt, and verify — with clear errors, status tracking, repeatable commands, wrappers around external services, tests, and validation.
 
+## Agentic Applications
+
+### 🤖⭐ Agentic Job Application System ⭐🚀
+
+
+An agentic job application LangGraph workflow where **Karen** and the **human user** can both guide the process. The system takes a job URL and candidate data, analyzes the role requirements, prepares tailored application data, tracks workflow state, and attempts the application through controlled browser automation with validation and review points.
+
+**Project:** [job_search_automation](https://github.com/portero-aylagas/job_search_automation)
+
+```text
+            Human 🧑🏼‍💼 / 🤖 Karen
+                      │
+                      ▼
+              Job URL +  CV
+                      │
+                      ▼
+     Tailored application data (cover letter...)
+                      │
+                      ▼
+Browser automation: forms, candidate data, attachments
+```
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/images/karen_applies_to_position.gif" alt="Karen chat workflow demo" width="90%">
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/images/browseruse_applies_to_position_and_attaches_data.gif" alt="Browser automation demo" width="90%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Karen prepares the application</b><br>
+      The assistant analyzes the job requirements and candidate profile, then prepares tailored application data for the selected position.
+    </td>
+    <td align="center">
+      <b>Agentic browser application</b><br>
+      The system attempts the application through browser navigation: filling forms, adding candidate data, and attaching required files.
+    </td>
+  </tr>
+</table>
+
 ---
 
-## Agentic Applications 
-
-| Project | What it does | GitHub |
-|---|---|---|
-| 🤖⭐**Agentic Job Application System** ⭐🚀| LangGraph end-to-end agentic workflow for job applications. It takes candidate data and a job URL, extracts and structures role information, generates tailored application material, tracks workflow state, and supports controlled browser-based application steps with validation and review points. | [Link](https://github.com/portero-aylagas/job_search_automation) |
-
----
 
 ## 🧭 What I care about
 
