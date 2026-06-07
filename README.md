@@ -8,24 +8,33 @@ My strength is combining **hands-on technical work with a broader view of the so
 My approach is pragmatic: I prototype fast enough to validate ideas, then harden the parts that matter.
 That means making workflows easier to observe, reproduce, adapt, and verify — with clear errors, status tracking, repeatable commands, wrappers around external services, tests, and validation.
 
-## Agentic Applications
+---
+
+## 🧭 What I care about
+
+- **Traceability and observability** — inputs, outputs, decisions, failures, and status should be inspectable
+- **Practical usefulness** — tools should solve actual workflow pain, not just look impressive
+- **Validation and regression safety** — important behavior should not just be trusted blindly from AI or developers, but protected by reproducible checks, tests, hooks, and CI
+- **Clear, testable boundaries** — core logic should be separated from external dependencies so systems are easier to test, debug, and extend
+- **Reusable quality standards** — recurring architecture patterns should become templates, checks, and documentation instead of being rebuilt manually each time
+- **Scalable design** — workflows should be modular enough to grow in complexity without requiring major rewrites or mixing unrelated responsibilities
+
+---
+
+## Projects
 
 ### 🤖⭐ Agentic Job Application System ⭐🚀
 
-
-An agentic job application LangGraph workflow where **Karen** and the **human user** can both guide the process. The system takes a job URL and candidate data, analyzes the role requirements, prepares tailored application data, tracks workflow state, and attempts the application through controlled browser automation with validation and review points.
+An agentic job application LangGraph workflow where **Karen** and the **human user** can both guide the process. The system takes a job URL and candidate data, analyzes the role requirements, prepares tailored application data, and attempts the application through controlled browser automation with validation and review points.
 
 **Project:** [job_search_automation](https://github.com/portero-aylagas/job_search_automation)
 
 ```text
             Human 🧑🏼‍💼 / 🤖 Karen
-                      │
                       ▼
               Job URL +  CV
-                      │
                       ▼
      Tailored application data (cover letter...)
-                      │
                       ▼
 Browser automation: forms, candidate data, attachments
 ```
@@ -57,18 +66,7 @@ Browser automation: forms, candidate data, attachments
 
 ---
 
-
-## 🧭 What I care about
-
-- **Traceability and observability** — inputs, outputs, decisions, failures, and status should be inspectable
-- **Practical usefulness** — tools should solve actual workflow pain, not just look impressive
-- **Validation and regression safety** — important behavior should not just be trusted blindly from AI or developers, but protected by reproducible checks, tests, hooks, and CI
-- **Clear, testable boundaries** — core logic should be separated from external dependencies so systems are easier to test, debug, and extend
-- **Reusable quality standards** — recurring architecture patterns should become templates, checks, and documentation instead of being rebuilt manually each time
-- **Scalable design** — workflows should be modular enough to grow in complexity without requiring major rewrites or mixing unrelated responsibilities
-
----
-## Other projects
+## Reusable Engineering and AI SW quality skills/templates
 
 ### Claude Code / Codex Skills for Software Quality & AI-Assisted Development
 
