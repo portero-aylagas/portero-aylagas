@@ -62,7 +62,7 @@ Browser automation: forms, candidate data, attachments
       Karen analyzes the position requirements and candidate profile/CV, then prepares tailored application data for the selected role.
     </td>
     <td align="center">
-      <img src="assets/images/karen_applies_to_position.gif" alt="Karen chat workflow demo" width="48.75%">
+      <img src="assets/images/karen_applies_to_position.gif" alt="Karen chat workflow demo" width="52%">
     </td>
   </tr>
   <tr>
@@ -71,7 +71,7 @@ Browser automation: forms, candidate data, attachments
       The system attempts the application through browser navigation: filling forms, adding candidate data, and attaching required files.
     </td>
     <td align="center">
-      <img src="assets/images/browseruse_applies_to_position_and_attaches_data.gif" alt="Browser automation demo" width="67.5%">
+      <img src="assets/images/browseruse_applies_to_position_and_attaches_data.gif" alt="Browser automation demo" width="72%">
     </td>
   </tr>
 </table>
