@@ -27,39 +27,51 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 An agentic job application LangGraph workflow where **Karen** and the **human user** can both guide the process. The system takes a job URL and candidate data, analyzes the role requirements, prepares tailored application data, and attempts the application through controlled browser automation with validation and review points.
 
-**Project:** [job_search_automation](https://github.com/portero-aylagas/job_search_automation)
+**Link to project:** [job_search_automation](https://github.com/portero-aylagas/job_search_automation)
 
-```text
-            Human 🧑🏼‍💼 / 🤖 Karen
-                      ▼
-              Job URL +  CV
-                      ▼
-     Tailored application data (cover letter...)
-                      ▼
+<div align="center">
+
+<pre>
+Human 🧑🏼‍💼 / 🤖 Karen
+▼
+Job URL + CV
+▼
+Tailored application data (cover letter...)
+▼
 Browser automation: forms, candidate data, attachments
-```
+</pre>
+
+</div>
+
+#### What it does
+
+| Area | Capability |
+| --- | --- |
+| Candidate profile | Structures CV and supporting document data. |
+| Job intake | Extracts job details from a URL for review. |
+| Requirements discovery | Finds required uploads, fields, and questions. |
+| Application package | Drafts cover letters, answers, messages, notes, and checklists. |
+| Fill plan | Maps reviewed data to application fields. |
+| Karen assistant | Explains blockers and can trigger approved workflow actions. |
+| Tracker | Keeps saved jobs and statuses visible. |
 
 <table>
   <tr>
-    <td align="center">
-      <img src="assets/images/karen_applies_to_position.gif" alt="Karen chat workflow demo" width="65%">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
+    <td>
       <b>Karen prepares the application</b><br>
       Karen analyzes the position requirements and candidate profile/CV, then prepares tailored application data for the selected role.
     </td>
-  </tr>
-  <tr>
     <td align="center">
-      <img src="assets/images/browseruse_applies_to_position_and_attaches_data.gif" alt="Browser automation demo" width="90%">
+      <img src="assets/images/karen_applies_to_position.gif" alt="Karen chat workflow demo" width="32.5%">
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td>
       <b>Agentic browser application</b><br>
       The system attempts the application through browser navigation: filling forms, adding candidate data, and attaching required files.
+    </td>
+    <td align="center">
+      <img src="assets/images/browseruse_applies_to_position_and_attaches_data.gif" alt="Browser automation demo" width="45%">
     </td>
   </tr>
 </table>
