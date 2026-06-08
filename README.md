@@ -10,7 +10,7 @@ That means making workflows easier to observe, reproduce, adapt, and verify — 
 
 ---
 
-## 🧭 What I care about
+## 🧭 What I care about when integrating AI into software
 
 - **Traceability and observability** — inputs, outputs, decisions, failures, and status should be inspectable
 - **Practical usefulness** — tools should solve actual workflow pain, not just look impressive
@@ -150,4 +150,4 @@ Browser automation: forms, candidate data, attachments
 
 ---
 
-For quick technical review: this profile is best evaluated as Applied AI Integration / AI Workflow Engineering. This profile README defines my AI engineering approach and what I care about. Those practices can be seen in `job_search_automation` as the main implementation evidence. `AI_project_templates` and `agent_skill_safe_project_improvement_system` codify the same approach into reusable patterns for controlled AI-assisted software delivery. Other public repos are supporting topic examples. The most important repositories are linked in this readme. 
+For quick technical review: this profile is best evaluated as Applied AI Integration / AI Workflow Engineering. This README defines my AI engineering approach and what I care about. `job_search_automation` shows that approach in a full implementation. `AI_project_templates` and `agent_skill_safe_project_improvement_system` package the same approach into reusable patterns for controlled AI-assisted software delivery. Other public repos are supporting topic examples, not claims of frontend, ML research, or distributed-systems specialization.
