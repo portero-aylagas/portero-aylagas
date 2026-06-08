@@ -147,3 +147,7 @@ Browser automation: forms, candidate data, attachments
 ## 📫 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Javier%20Portero-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/portero)
+
+---
+
+For quick technical review: this profile is best evaluated as Applied AI Integration / AI Workflow Engineering. This profile README defines my AI engineering approach and what I care about. Those practices can be seen in `job_search_automation` as the main implementation evidence. `AI_project_templates` and `agent_skill_safe_project_improvement_system` codify the same approach into reusable patterns for controlled AI-assisted software delivery. Other public repos are supporting topic examples.
